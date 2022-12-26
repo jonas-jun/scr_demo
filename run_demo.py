@@ -2,9 +2,6 @@ import streamlit as st
 import numpy as np
 from utils import build_transform, load_image_from_url
 from model import ScoringNet
-from PIL import Image
-import os, sys, requests
-from io import BytesIO
 
 st.title("Test page for _ScoringNet_ :100:")
 svr_path = "LinearSVR_clip.joblib"
