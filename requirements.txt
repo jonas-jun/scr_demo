@@ -1,7 +1,7 @@
 streamlit
-pillow==9.0.1
+pillow
 albumentations
-torch==1.13.1
+torch
 opencv-python
 joblib
 -e git://https://github.com/openai/CLIP.git
